@@ -56,13 +56,4 @@ export default defineConfig({
       },
     },
   },
-  build: {
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          'react-venders': ['react', 'react-dom', '@vitjs/runtime'],
-        },
-      },
-    },
-  },
 })
