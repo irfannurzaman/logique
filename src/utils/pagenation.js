@@ -11,7 +11,6 @@ export const pagenation = (items, current_page, per_page_items) => {
 			page: page,
 			per_page: per_page,
 			pre_page: page - 1 ? page - 1 : null,
-			next_page: (total_pages > page) ? page + 1 : null,
 			total: items.length,
 			total_pages: total_pages,
 			data: paginatedItems
