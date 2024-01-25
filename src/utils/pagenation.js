@@ -8,11 +8,6 @@ export const pagenation = (items, current_page, per_page_items) => {
 		total_pages = Math?.ceil(items.length / per_page);
 	
 		return {
-			page: page,
-			per_page: per_page,
-			pre_page: page - 1 ? page - 1 : null,
-			total: items.length,
-			total_pages: total_pages,
 			data: paginatedItems
 		};
 	}
