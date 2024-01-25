@@ -11,7 +11,6 @@ const initialValues = {
     loading: false,
     message: '',
     input: undefined,
-    next_page: 0,
     page: 0,
     per_page: 0,
     next_page: 0,
