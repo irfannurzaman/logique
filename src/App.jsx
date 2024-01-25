@@ -54,7 +54,7 @@ function App() {
             </Row>
         }
         {
-          !state.loading || state.next_page !== null &&
+          !state.loading && state.next_page !== null &&
           <Row style={{ marginTop: 20, marginBottom: 20 }} justify="center" align="middle">
             <Button onClick={onClickLoadMore} shape="round"  color='#e2e8f0' style={{ backgroundColor: '#e2e8f0', color: '#64748b'}} size='16'>
                 Load More
